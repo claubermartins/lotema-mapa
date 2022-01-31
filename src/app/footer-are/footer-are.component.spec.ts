@@ -1,20 +1,20 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { NavbarAreaComponent } from './navbar-area.component';
+import { FooterAreComponent } from './footer-are.component';
 
-describe('NavbarAreaComponent', () => {
-  let component: NavbarAreaComponent;
-  let fixture: ComponentFixture<NavbarAreaComponent>;
+describe('FooterAreComponent', () => {
+  let component: FooterAreComponent;
+  let fixture: ComponentFixture<FooterAreComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [NavbarAreaComponent]
+      declarations: [ FooterAreComponent ]
     })
-      .compileComponents();
+    .compileComponents();
   });
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(NavbarAreaComponent);
+    fixture = TestBed.createComponent(FooterAreComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
