@@ -8,9 +8,9 @@ describe('NavbarAreaComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ NavbarAreaComponent ]
+      declarations: [NavbarAreaComponent]
     })
-    .compileComponents();
+      .compileComponents();
   });
 
   beforeEach(() => {
