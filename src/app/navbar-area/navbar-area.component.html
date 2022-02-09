@@ -11,10 +11,10 @@
           </div>
           <ul class="user-login">
             <li>
-              <a href="login.html">Entrar</a>
+              <a routerLink="/login">Entrar</a>
             </li>
             <li>
-              <a href="register.html">Registrar</a>
+              <a routerLink="/register">Registrar</a>
             </li>
           </ul>
         </div>
@@ -118,88 +118,6 @@
       </ul>
 
       <div class="tab-content">
-        <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">...
-        </div>
-        <div class="tab-pane" id="perfil" role="tabpanel" aria-labelledby="profile-tab">...</div>
-        <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">...</div>
-        <div class="tab-pane" id="settings" role="tabpanel" aria-labelledby="settings-tab">...</div>
-        <div class="tab-pane" id="Jogar" role="tabpanel" aria-labelledby="Jogar-tab">...</div>
-        <div class="tab-pane" id="responsavel" role="tabpanel" aria-labelledby="responsavel-tab">
-          <br>
-          <div style="text-align:center" >
-            <h3>Jogo Responsável</h3>
-          </div>
-          <br>
-          <br>
-          <h4>Conceito</h4>
-          <br>
-          <p>
-            O jogo responsável é a prática de jogos como forma de entretenimento e diversão, onde o jogador, plenamente
-            consciente das regras a que está submetido no momento da escolha do jogo, decide livremente despender seu
-            tempo e dinheiro de forma a não pôr em risco as relações familiares, sociais e profissionais.
-          </p>
-          <br>
-          <h4>Objetivos</h4>
-          <br>
-          <li>Estabelecer uma relação de confiança entre a LOTEMA e o jogador;</li>
-          <li>Orientar sobre os riscos e danos que o jogo excessivo pode causar à saúde do jogador;</li>
-          <li>Informar sobre os produtos e serviços oferecidos;</li>
-          <li>Evitar que menores de 18 anos tenham acesso aos jogos;</li>
-          <br>
-          <h4>Hábitos do Jogador Responsável</h4>
-          <br>
-          <li>Jogar por diversão. Fazer do jogo uma forma de entretenimento e uma experiência agradável</li>
-          <li>todas particularidades do jogo que vai jogar;</li>
-          <li>Apostar moderadamente;</li>
-          <li>Saber as reais probabilidades de ganhar ou perder;</li>
-          <li>Estabelecer um tempo para jogo e joga somente o tempo planejado;</li>
-          <li>Ter definido o valor que vai gastar;</li>
-          <li>Fazer apostas de baixo risco e não utilizar o dinheiro destinado a necessidades básicas, como alimentação,
-            e outras despesas essenciais;</li>
-          <li>Não fazer do jogo um meio para ganhar dinheiro ou sanar dívidas;</li>
-          <li>Não jogar para recuperar perdas e não tomar dinheiro emprestado para jogar;</li>
-          <li>Não jogar sob o efeito de substâncias que impeçam ou de alguma forma prejudiquem a livre autodeterminação,
-            enfraqueçam a vontade e a responsabilização pelos atos do jogador;</li>
-          <li>Não permitir que o jogo cause prejuízos em sua vida pessoal: relacionamento com a família, amigos,
-            profissional, social.</li>
-          <li>Não adotar comportamentos tendentes ao endividamento pessoal e ao jogo compulsivo;</li>
-          <li>Ter responsabilidade em relação aos jogos, sabe se quer e como jogar e quanto gastar;</li>
-          <li>Não utilizar a atividade para fugir ou amenizar os problemas;</li>
-          <br>
-          <h4>Jogo Patológico/Jogo Compulsivo</h4>
-          <br>
-          <p>
-            O jogo patológico também conhecido como jogo compulsivo ou ludopatia é reconhecido como problema de
-            saúde pela Organização Mundial de Saúde (OMS). É uma doença comportamental e caracteriza-se por um
-            impulso incontrolável para o jogo. O jogador perde o controle sobre o impulso para jogar, não consegue
-            tomar decisões de quando começar ou terminar, o jogo passa a ser prioritário na sua vida afetando de
-            forma negativa todas as áreas de sua vida
-          </p>
-          <br>
-          <h4>Características do jogador patológico</h4>
-          <br>
-          <li> Fazer do jogo sua atividade principal, deixando de lado o trabalho, a família e amigos;</li>
-          <li> Jogar para recuperar perdas, perder o controle sobre suas ações e emoções;</li>
-          <li> Pedir dinheiro emprestado para jogar, vender seus próprios bens ou os bens da família para alimentar o
-            vício;</li>
-          <li> Perder o controle sobre as apostas;</li>
-          <li> Não estabelecer limite de tempo e valor para o jogo;</li>
-          <li> Perder o equilíbrio entre o jogo e outras atividades de lazer;</li>
-          <li> Utilizar para o jogo, o dinheiro destinado às despesas mensais ou alimentação;</li>
-          <li> Ficar inquieto e irritado quando diminui ou para de jogar;</li>
-          <li> Cometer atos ilegais para custear o jogo;</li>
-          <br>
-          <h4>Auto Avaliação/Auto teste</h4>
-          <br>
-          <p>
-            O auto teste é um mecanismo de ajuda que permite ao jogador se auto avaliar. Existem alguns questionários,
-            também denominados de auto teste, que possibilitam identificar se uma pessoa tem comportamento de um jogador
-            patológico. Abaixo o questionário desenvolvido pelo Jogadores Anônimos do Brasil.
-            Teste seu comportamento com o jogo respondendo o questionário abaixo:
-          </p>
-          <br>
-
-        </div>
         <div class="tab-pane active" id="home" role="tabpanel" aria-labelledby="home-tab">
           ...
         </div>
@@ -213,7 +131,7 @@
           ...
         </div>
         <div class="tab-pane" id="jogar" role="tabpanel" aria-labelledby="jogar-tab">
-          ...
+          <app-quiz></app-quiz>
         </div>
         <div class="tab-pane" id="responsavel" role="tabpanel" aria-labelledby="responsavel-tab">
           <br />
@@ -325,27 +243,11 @@
           <li>Ficar inquieto e irritado quando diminui ou para de jogar;</li>
           <li>Cometer atos ilegais para custear o jogo;</li>
           <br />
-<<<<<<< HEAD
-          <h4>Auto Avaliação/Auto teste</h4>
-          <br />
-          <p>
-            O auto teste é um mecanismo de ajuda que permite ao jogador se auto
-            avaliar. Existem alguns questionários, também denominados de auto
-            teste, que possibilitam identificar se uma pessoa tem comportamento
-            de um jogador patológico. Abaixo o questionário desenvolvido pelo
-            Jogadores Anônimos do Brasil. Teste seu comportamento com o jogo
-            respondendo o questionário abaixo:
-          </p>
-
-          <br />
-        </div>
-=======
 
         </div>
         <div class="tab-pane" id="auto" role="tabpanel" aria-labelledby="auto-tab">
           <app-form-area></app-form-area>
         </div>
->>>>>>> dev
 
       </div>
     </div>
