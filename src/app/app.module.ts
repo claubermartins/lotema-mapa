@@ -6,13 +6,19 @@ import { AppComponent } from './app.component';
 import { NavbarAreaComponent } from './navbar-area/navbar-area.component';
 import { FooterAreComponent } from './footer-are/footer-are.component';
 import { FormAreaComponent } from './form-area/form-area.component';
+import { HeaderComponent } from './quiz/header/header/header.component';
+import { WelcomeComponent } from './quiz/welcome/welcome/welcome.component';
+import { QuestionComponent } from './quiz/question/question/question.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarAreaComponent,
     FooterAreComponent,
-    FormAreaComponent
+    FormAreaComponent,
+    HeaderComponent,
+    WelcomeComponent,
+    QuestionComponent
   ],
   imports: [
     BrowserModule,
