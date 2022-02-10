@@ -14,7 +14,7 @@ import { QuizComponent } from './quiz/quiz.component';
     NavbarAreaComponent,
     FooterAreComponent,
     FormAreaComponent,
-    QuizComponent
+    QuizComponent,
   ],
   imports: [
     BrowserModule,
