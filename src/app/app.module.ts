@@ -9,6 +9,7 @@ import { FormAreaComponent } from './form-area/form-area.component';
 import { HeaderComponent } from './quiz/header/header/header.component';
 import { WelcomeComponent } from './quiz/welcome/welcome/welcome.component';
 import { QuestionComponent } from './quiz/question/question/question.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { QuestionComponent } from './quiz/question/question/question.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
