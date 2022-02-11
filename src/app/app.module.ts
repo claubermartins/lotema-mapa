@@ -10,6 +10,7 @@ import { HeaderComponent } from './quiz/header/header/header.component';
 import { WelcomeComponent } from './quiz/welcome/welcome/welcome.component';
 import { QuestionComponent } from './quiz/question/question/question.component';
 import { HttpClientModule } from '@angular/common/http';
+import { TopbarComponent } from './topbar/topbar.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { HttpClientModule } from '@angular/common/http';
     FormAreaComponent,
     HeaderComponent,
     WelcomeComponent,
-    QuestionComponent
+    QuestionComponent,
+    TopbarComponent
   ],
   imports: [
     BrowserModule,
