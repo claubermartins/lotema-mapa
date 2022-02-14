@@ -1,112 +1,251 @@
 {
-    "questions": [{
-            "questionText": "Which of the following does TypeScript use to specify types?",
-            "options": [{
-                    "text": "Sim",
-                    "correct": true
-                },
-                {
-                    "text": "Não"
-                }
-
-            ],
-            "explanation": "TS uses a colon (:) to separate the property name from the property type"
+  "questions": [
+    {
+      "questionText": "Você já perdeu horas de trabalho ou da escola devido ao jogo?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
         },
         {
-            "questionText": "Which of the following is NOT a type used in TypeScript?",
-            "options": [{
-                    "text": "Sim",
-                    "correct": true
-                },
-                {
-                    "text": "Não"
-                }
-            ],
-            "explanation": "enum is not used as a type in TypeScript"
-        },
-        {
-            "questionText": "How can we specify properties and methods for an object in TypeScript?",
-            "options": [{
-                "text": "Sim",
-                "correct": true
-            },
-            {
-                "text": "Não"
-            }
-        ],
-            "explanation": "interfaces are typically used to list the properties and methods for an object"
-        },
-        {
-            "questionText": "How else can Array<number> be written in TypeScript?",
-            "options": [{
-                "text": "Sim",
-                "correct": true
-            },
-            {
-                "text": "Não"
-            }
-        ],
-            "explanation": "number[] is another way of writing Array<number> in TypeScript"
-        },
-        {
-            "questionText": "In which of these does a class take parameters?",
-            "options": [{
-                "text": "Sim",
-                "correct": true
-            },
-            {
-                "text": "Não"
-            }
-        ],
-            "explanation": "a constructor is used by a class to take in parameters"
-        },
-        {
-            "questionText": "Which is NOT an access modifier?",
-            "options": [{
-                "text": "Sim",
-                "correct": true
-            },
-            {
-                "text": "Não"
-            }
-        ],
-            "explanation": "async is not used as an access modifier type in TypeScript"
-        },
-        {
-            "questionText": "Which keyword allows us to share information between files in TypeScript?",
-            "options": [{
-                "text": "Sim",
-                "correct": true
-            },
-            {
-                "text": "Não"
-            }
-        ],
-            "explanation": "the export keyword allows for the information to be transmitted between files"
-        },
-        {
-            "questionText": "Which is an array method to generate a new array based on a condition?",
-            "options": [{
-                "text": "Sim",
-                "correct": true
-            },
-            {
-                "text": "Não"
-            }
-        ],
-            "explanation": "filter is a method used to conditionally create a new array"
-        },
-        {
-            "questionText": "How is a property accessible within a class?",
-            "options": [{
-                "text": "Sim",
-                "correct": true
-            },
-            {
-                "text": "Não"
-            }
-        ],
-            "explanation": "this.propertyName is the way to access a specific property within a class"
+          "text": "Não"
         }
-    ]
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez o jogo já causou infelicidade na sua vida familiar?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "O jogo já afetou sua reputação?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Você já sentiu remorso após jogar?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já jogou para obter dinheiro para pagar dívidas ou então resolver dificuldades financeiras?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Após ter perdido você se sentiu como se necessitasse voltar o mais cedo possível e recuperar as suas perdas?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Após um ganho você sentiu uma forte vontade de voltar a ganhar mais?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Você geralmente jogava até que seu último centavo acabasse?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Você já pediu dinheiro emprestado para financiar o jogo?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já vendeu alguma coisa para financiar o jogo?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Você relutava em usar o dinheiro de jogo para as despesas normais?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "O jogo o tomou descuidado com o seu bem-estar e o de sua família?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já jogou por mais tempo do que planejava?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já jogou para fugir das preocupações ou problemas?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já cometeu, ou pensou em cometer um ato ilegal para financiar o jogo?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "O jogo fez com que você tivesse dificuldades para dormir?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "As discussões, desapontamentos ou frustações fizeram com que você tivesse vontade de jogar?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já teve vontade de celebrar alguma boa sorte com algumas horas de jogo?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    },
+    {
+      "questionText": "Alguma vez você já pensou em se autodestruir como resultado de seu jogo?",
+      "options": [
+        {
+          "text": "Sim",
+          "correct": true
+        },
+        {
+          "text": "Não"
+        }
+      ],
+      "explanation": "explicação do resultado aqui"
+    }
+  ]
 }
