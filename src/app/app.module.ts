@@ -11,6 +11,7 @@ import { WelcomeComponent } from './quiz/welcome/welcome/welcome.component';
 import { QuestionComponent } from './quiz/question/question/question.component';
 import { HttpClientModule } from '@angular/common/http';
 import { TopbarComponent } from './topbar/topbar.component';
+import { ChangeBgDirective } from './quiz/change-bg.directive';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { TopbarComponent } from './topbar/topbar.component';
     HeaderComponent,
     WelcomeComponent,
     QuestionComponent,
-    TopbarComponent
+    TopbarComponent,
+    ChangeBgDirective
   ],
   imports: [
     BrowserModule,
