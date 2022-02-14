@@ -6,18 +6,18 @@
               <img src="https://img.icons8.com/color/96/000000/angularjs.png" width="90" alt="logo">
           </div>
           <div class="quiz-header">
-              <h4 style="font-family: cursive;">Angular & TypeScript Quiz!</h4>
-              <span style="font-style: italic;">Welcome {{name}}</span>
+              <h4 style="font-family: cursive;">Quiz Jogo Responsável</h4>
+              <span style="font-style: italic;">Bem vindo {{name}}</span>
           </div>
       </div>
 
       <ng-container *ngIf="!isQuizCompleted">
           <div class="d-flex justify-content-around py-3">
               <div class="score">
-                  <h5>{{points}} Points</h5>
+                  <h5>{{points}} Pontos</h5>
               </div>
               <div class="question-remain">
-                  <span style="font-style: italic;">Question {{currentQuestion+1}} of {{questionList.length}}</span>
+                  <span style="font-style: italic;">Questão {{currentQuestion+1}} of {{questionList.length}}</span>
               </div>
               <div class="timer">
                   <h5>{{counter}} sec ⏱</h5>
@@ -52,11 +52,11 @@
           <div class="row d-flex justify-content-between">
               <img style="width: 50%;" class="img-fluid col-sm-12 mx-auto" src="https://icon-library.com/images/celebration-icon-png/celebration-icon-png-7.jpg" alt="">
               <div class="result text-center col-md-6 col-sm-12">
-                  <h3>Congratulations!! <br>You have completed the quiz. <br>Below is your result:</h3>
-                  <p>Total Question Attempted : {{questionList.length}} </p>
-                  <p>Total Correct Answered : {{correctAnswer}} </p>
-                  <p>Total Wrong Answered : {{inCorrectAnswer}} </p>
-                  <p>Your Score : {{points}} Points </p>
+                  <h3>Parabéns!! <br>Você completou o quiz. <br>Seu resultado:</h3>
+                  <p>Perguntas Respondidas : {{questionList.length}} </p>
+                  <p>Respostas Afirmativas : {{correctAnswer}} </p>
+                  <p>Respostas Negativas : {{inCorrectAnswer}} </p>
+                  <p>Sua Pontuação : {{points}} Pontos </p>
               </div>
           </div>
       </ng-container>
