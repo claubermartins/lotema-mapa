@@ -242,6 +242,9 @@ Apache-2.0
  
 
 
+survey-angular
+MIT
+
 zone.js
 MIT
 The MIT License
