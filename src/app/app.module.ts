@@ -6,7 +6,12 @@ import { AppComponent } from './app.component';
 import { NavbarAreaComponent } from './navbar-area/navbar-area.component';
 import { FooterAreComponent } from './footer-are/footer-are.component';
 import { FormAreaComponent } from './form-area/form-area.component';
-import { QuizComponent } from './quiz/quiz.component';
+import { HeaderComponent } from './quiz/header/header/header.component';
+import { WelcomeComponent } from './quiz/welcome/welcome/welcome.component';
+import { QuestionComponent } from './quiz/question/question/question.component';
+import { HttpClientModule } from '@angular/common/http';
+import { TopbarComponent } from './topbar/topbar.component';
+import { ChangeBgDirective } from './quiz/change-bg.directive';
 
 @NgModule({
   declarations: [
@@ -14,11 +19,16 @@ import { QuizComponent } from './quiz/quiz.component';
     NavbarAreaComponent,
     FooterAreComponent,
     FormAreaComponent,
-    QuizComponent,
+    HeaderComponent,
+    WelcomeComponent,
+    QuestionComponent,
+    TopbarComponent,
+    ChangeBgDirective
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
