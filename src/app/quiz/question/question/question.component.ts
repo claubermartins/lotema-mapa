@@ -1,7 +1,7 @@
 import { QuestionService } from './../../service/question.service';
 import { Component, OnInit } from '@angular/core';
 import { interval } from 'rxjs';
-import {Router} from '@angular/router';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-question',
@@ -19,8 +19,8 @@ export class QuestionComponent implements OnInit {
   inCorrectAnswer: number = 0;
   interval$: any;
   progress: string = "0";
-  isQuizCompleted : boolean = false;
-  constructor(private questionService: QuestionService, private router:Router) { }
+  isQuizCompleted: boolean = false;
+  constructor(private questionService: QuestionService, private router: Router) { }
 
   ngOnInit(): void {
     this.name = localStorage.getItem("name")!;
@@ -41,7 +41,7 @@ export class QuestionComponent implements OnInit {
   }
   answer(currentQno: number, option: any) {
 
-    if(currentQno === this.questionList.length){
+    if (currentQno === this.questionList.length) {
       this.isQuizCompleted = true;
       this.stopCounter();
     }
@@ -103,7 +103,7 @@ export class QuestionComponent implements OnInit {
     return this.progress;
 
   }
-  sairQuiz(){
+  sairQuiz() {
     setTimeout(() => {
       this.router.navigate(['/navbar-area'])
     }, 500);

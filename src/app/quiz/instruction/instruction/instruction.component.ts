@@ -1,4 +1,6 @@
+import { Router } from '@angular/router';
 import { Component, OnInit } from '@angular/core';
+
 
 @Component({
   selector: 'app-instruction',
@@ -7,9 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InstructionComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
+  sairQuiz() {
+    setTimeout(() => {
+      this.router.navigate(['/navbar-area'])
+    }, 500);
 
+  }
 }
