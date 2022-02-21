@@ -103,10 +103,12 @@ export class QuestionComponent implements OnInit {
     return this.progress;
 
   }
-  sairQuiz() {
+
+  voltarQuiz() {
     setTimeout(() => {
-      this.router.navigate(['/navbar-area'])
+      this.router.navigate(['/welcome'])
     }, 500);
 
   }
+
 }

@@ -13,9 +13,9 @@ export class InstructionComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  sairQuiz() {
+  voltarQuiz() {
     setTimeout(() => {
-      this.router.navigate(['/navbar-area'])
+      this.router.navigate(['/welcome'])
     }, 500);
 
   }

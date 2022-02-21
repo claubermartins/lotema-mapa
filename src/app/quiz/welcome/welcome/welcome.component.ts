@@ -1,4 +1,5 @@
-import { Component, OnInit,ViewChild,ElementRef } from '@angular/core';
+// import { Router } from '@angular/router';
+import { Component, OnInit, ViewChild, ElementRef } from '@angular/core';
 
 @Component({
   selector: 'app-welcome',
@@ -8,12 +9,16 @@ import { Component, OnInit,ViewChild,ElementRef } from '@angular/core';
 export class WelcomeComponent implements OnInit {
 
   @ViewChild('name') nameKey!: ElementRef;
-  constructor() { }
+  // constructor(private router: Router) { }
 
   ngOnInit(): void {
   }
-  startQuiz(){
-    localStorage.setItem("name",this.nameKey.nativeElement.value);
+  startQuiz() {
+    localStorage.setItem("name", this.nameKey.nativeElement.value);
   }
-
+  // sairQuiz() {
+  //   setTimeout(() => {
+  //     this.router.navigate(['/navbar-area'])
+  //   });
+  // }
 }
