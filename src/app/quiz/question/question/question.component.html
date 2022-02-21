@@ -37,7 +37,7 @@
       </div>
       <div class="question">
         <div class="card">
-          <h3>{{questionList[currentQuestion]?.questionText}}</h3>
+          <h3 style="font-family: cursive">{{questionList[currentQuestion]?.questionText}}</h3>
         </div>
       </div>
       <div class="options">
@@ -64,7 +64,7 @@
       <div class="row d-flex justify-content-between">
         <img style="width: 50%;" class="img-fluid col-sm-12 mx-auto" src="assets/images/quiz/crazy.jpg" alt="">
         <div class="result text-center col-md-6 col-sm-12">
-          <h3 style="font-family: Segoe UI Emoji">Parabéns!! <br>Você completou o quiz. <br>Seu resultado:</h3>
+          <h3 style="font-family: Segoe UI Emoji">Parabéns!! <br>Você completou o Quiz. <br>Seu resultado:</h3>
           <p style="font-family: Segoe UI Emoji">Perguntas Respondidas : {{questionList.length}} </p>
           <p style="font-family: Segoe UI Emoji">Respostas Afirmativas : {{correctAnswer}} </p>
           <p style="font-family: Segoe UI Emoji">Respostas Negativas : {{inCorrectAnswer}} </p>
@@ -72,8 +72,7 @@
           <br>
           <br>
           <br>
-          <p style="font-family: Segoe UI Emoji">Se sua pontuação for maior que 70 ou mais pontos para o teste acima,
-            você é considerado um jogador com tendências a um jogador patológico.</p>
+          <p style="font-family: Segoe UI Emoji">Caso sua pontuação seja maior ou igual a 70 pontos, você tem tendências a ser um jogador patológico.</p>
         </div>
       </div>
     </ng-container>
