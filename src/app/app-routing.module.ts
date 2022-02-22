@@ -10,7 +10,7 @@ const routes: Routes = [
   {path:"welcome", component:WelcomeComponent},
   {path:"instruction", component:InstructionComponent},
   {path:"question", component:QuestionComponent},
-  {path:'', pathMatch:"full", redirectTo:'navbar-area'},
+  {path:'', pathMatch:"full", redirectTo:'welcome'},
   //  {path:'', redirectTo:'navbar-area',pathMatch:"full"},
   //  {path:"welcome", component:WelcomeComponent},
   //  {path:"question", component:QuestionComponent}
