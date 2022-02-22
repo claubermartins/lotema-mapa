@@ -6,8 +6,8 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
-  {path:"navbar-area", component:NavbarAreaComponent},
   {path:"welcome", component:WelcomeComponent},
+  {path:"navbar-area", component:NavbarAreaComponent},
   {path:"instruction", component:InstructionComponent},
   {path:"question", component:QuestionComponent},
   {path:'', pathMatch:"full", redirectTo:'welcome'},
