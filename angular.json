@@ -28,7 +28,7 @@
             ],
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.min.css",
-              "src/assets/css/bootstrap.min.css",
+
               "src/assets/css/LineIcons.3.0.css",
               "src/assets/css/tiny-slider.css",
               "src/assets/css/glightbox.min.css",
@@ -39,7 +39,7 @@
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js",
               "node_modules/bootstrap/dist/js/bootstrap.min.js",
-              "src/assets/js/bootstrap.min.js",
+
               "src/assets/js/tiny-slider.js",
               "src/assets/js/glightbox.min.js",
               "src/assets/js/main.js"
